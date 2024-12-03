@@ -17,7 +17,7 @@ public class Pagamentos {
 
     @Id
     @GeneratedValue
-    private UUID id;
+    private Long id;
 
     @OneToOne
     @JoinColumn(name = "locacao_id", referencedColumnName = "id")

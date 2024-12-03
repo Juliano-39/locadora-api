@@ -16,7 +16,7 @@ public class Carros {
 
     @Id
     @GeneratedValue
-    private UUID id;
+    private Long id;
 
     @Column(name = "marca")
     private String marca;

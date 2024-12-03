@@ -17,7 +17,7 @@ public class Locacoes {
 
     @Id
     @GeneratedValue
-    private UUID id;
+    private Long id;
 
     @ManyToOne
     @JoinColumn(name = "cliente_id")

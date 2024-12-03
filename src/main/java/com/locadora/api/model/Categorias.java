@@ -16,7 +16,7 @@ public class Categorias {
 
     @Id
     @GeneratedValue
-    private UUID id;
+    private Long id;
 
     @Column(name = "nome_categoria")
     private String nomeCategoria;
